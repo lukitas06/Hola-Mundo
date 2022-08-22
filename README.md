@@ -1,2 +1,2 @@
 # Hola-Mundo
-Para practicar el tema de los repositorios.
+Ejercicio de aplicacion del tema repositorios.
