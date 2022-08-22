@@ -1,2 +1,4 @@
-# Hola-Mundo
-Ejercicio de aplicacion del tema repositorios.
+Mi nombre: Lucas Alegre
+
+//Git add: Confirmo los cambios
+//Git commit: 
