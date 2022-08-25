@@ -7,7 +7,7 @@ public class Product{
     private int precio;
     List<Review> reviews=new List<Review>();
 
-    public Product(string nombre, int precio,List<Review> review){
+    public Product(string nombre, int precio, List<Review> review){
         this.nombre= nombre;
         this.precio=precio;
         this.reviews=review;
@@ -23,20 +23,19 @@ public class Product{
             return this.precio;
         }
     }
-    public string Review{
-        get{
-            string reviewJoin= string.Join (", ", this.reviews);
-            Console.WriteLine(reviewJoin);
+    public string GetReviews(){
+            string reviewJoin= "";
+            for (int i = 0; i <this.reviews.Count; i++)
+            {
+                reviewJoin += this.reviews[i].ToString(); 
+            }
             return reviewJoin;
-        }
-        
     }
 
-   
-        
     public override string ToString(){
-        return $"Nombre del producto: {this.Nombre} \nPrecio: {this.Precio} \nReviews: {this.reviews } ";
-}
+        string reviews= this.GetReviews();
+        return $"Nombre del producto: {this.Nombre} \nPrecio: {this.Precio} \nReviews: {reviews} ";
+    }
 }
 class MainClass{
     public static void Main(){

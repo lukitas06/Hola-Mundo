@@ -1,0 +1,7 @@
+git clone https://github.com/lukitas06/Hola-Mundo.git: Clono el repositorio remoto a una carpeta de mi computadora que yo elija.
+Git add .: Agrego los archivos que estan prontos para commitear, 
+Git commit: Commiteo el o los archivos, guardando los cambios.
+Git push: Pusheo los archivos modificados hacia el repositorio remoto (en github)
+Git pull: Cuando realizo cambios en el archivo desde el repositorio remoto, y quiero "descargarlos" en el repositorio origen (mi computadora).
+
+Link a mi repo: https://github.com/lukitas06/Hola-Mundo.git

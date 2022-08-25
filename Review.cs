@@ -7,11 +7,13 @@ public class Review{
     public Review(int calificacion, string comentario ){
         this.Calificacion= calificacion;
         this.Comentario=comentario;
-        
-        
+    }
+
+     public override string ToString(){
+        return $"Calificacion: {this.Calificacion} |  Comentario: {this.Comentario} ";
     }
     
-    } 
+} 
     
 
 
